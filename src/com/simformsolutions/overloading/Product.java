@@ -1,16 +1,16 @@
 package com.simformsolutions.overloading;
 
-public class FindProduct {
+public class Product {
 
-  public void product(int productId){
+  public void findProduct(int productId){
     System.out.println("ProductId : " + productId);
   }
 
-  public void product(String productName){
+  public void findProduct(String productName){
     System.out.println("productName : " + productName);
   }
 
-  public void product(int productId , String productName){
+  public void findProduct(int productId , String productName){
     System.out.println("ProductId : " + productId  + "\t\t\tproductName : " + productName);
   }
 }
